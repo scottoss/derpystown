@@ -6,13 +6,6 @@ node_modules/
 /logs/
 /settings/
 
-/.vs
 
-/src/ts/generated/*
-!/src/ts/generated/gamepad-template.ts
-
-/assets/images/pony.png
-/assets/images/pony2.png
-/assets/images/pony2a.png
 
 /config.json
