@@ -293,7 +293,7 @@ node cli.js --removerole <account_id> <role>
 To setup superadmin role use following command
 
 ```bash
-node cli.js --removerole 5e4707254448eb0cec6d7b43 superadmin,
+node cli.js --addrole <account_id> superadmin,
 ```
 
 ### Additional tools
