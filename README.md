@@ -39,8 +39,8 @@ npm install
   ```javascript
   db.createUser(
     {
-      user: "derp",
-      pwd: "derp",
+      user: "user",
+      pwd: "user-password",
       roles: [ { role: "readWrite", db: "server" } ]
     }
   )
@@ -102,8 +102,8 @@ Get OAuth keys for authentication platform of your choice (github, google, twitt
 
 ```json
 "facebook": {
-  "clientID": "2490367551200529"
-  "clientSecret": "572a47dcabb88b878c6fcb128ce9ce99",
+  "clientID": ""
+  "clientSecret": "",
   "graphApiVersion": "v4.0"
 }
 ```
