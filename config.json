@@ -7,7 +7,7 @@
 	"port": 8050,
 	"adminPort": 8040,
 	"host": "https://derpystown.com",
-	"local": "localhost:8090",
+	"local": "localhost:8050",
 	"adminLocal": "localhost:8040",
 	"proxy": true,
 	"secret": "5476575868679978780675965846794065e",
