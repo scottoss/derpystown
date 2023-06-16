@@ -1,22 +1,22 @@
 {
-	"title": "Your Town",
+	"title": "DerpysTown",
 	"discordLink": "<LINK_TO_DISCORD_INVITE>",
 	"twitterLink": "<LINK_TO_TWITTER>",
 	"contactEmail": "your_contact_email@example.com",
 	"contactDiscord": "your_contact_discord#0000",
-	"port": 8090,
-	"adminPort": 8091,
-	"host": "http://localhost:8090/",
+	"port": 8050,
+	"adminPort": 8040,
+	"host": "https://derpystown.com",
 	"local": "localhost:8090",
-	"adminLocal": "localhost:8091",
+	"adminLocal": "localhost:8040",
 	"proxy": true,
-	"secret": "<some_random_string_here>",
-	"token": "<some_other_random_string_here>",
-	"db": "mongodb://<username>:<password>@localhost:27017/<database_name>",
+	"secret": "5476575868679978780675965846794065e",
+	"token": "54747658656796780870707",
+	"db": "mongodb+srv://pony:town@cluster0.0jdjv.mongodb.net/derpystown?retryWrites=true&w=majority",
 	"oauth": {
 		"google": {
-			"clientID": "<CLIENT_ID_HERE>",
-			"clientSecret": "<CLIENT_SECRET_HERE>"
+			"clientID": "463497634081-0phtshetk4u0hbvvuvesn1nl38dbh925.apps.googleusercontent.com",
+			"clientSecret": "3g_h1m9n8xST4L151NZGKwz_"
 		}
 	},
 	"assetsPath": "assets-source",
@@ -25,9 +25,9 @@
 	"servers": [
 		{
 			"id": "test",
-			"port": 8090,
+			"port": 8050,
 			"path": "/s00/ws",
-			"local": "localhost:8090",
+			"local": "localhost:8050",
 			"name": "Test server",
 			"season": "spring",
 			"holiday": "none",
