@@ -33,6 +33,7 @@
 			"holiday": "none",
 			"desc": "Testing server",
 			"flags": {
+        "editor": true,
 				"test": true
 			}
 		}
