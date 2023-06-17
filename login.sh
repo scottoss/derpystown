@@ -1,1 +1,1 @@
-node pony-town.js --login --tools
+node pony-town.js --login --tools --beta
