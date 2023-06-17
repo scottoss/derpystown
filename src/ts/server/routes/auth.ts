@@ -289,12 +289,12 @@ export function authRoutes(
 		return { success: true };
 	}));
 
-	if (mockLogin) {
-		use(new LocalStrategy((login, _pass, done) => Account.findById(login, done)));
-		app.get('/local', authenticate('local', { successRedirect: '/', failureRedirect: '/failed-login' }));
-	}
+	//if (mockLogin) {
+        use(new LocalStrategy((login, _pass, done) => Account.findById(login, done)));
+	app.get('/local', authenticate('local', { successRedirect: '/', failureRedirect: '/failed-login' }));
+	//}
 
-	return app;
+	//return app;
 }
 
 function createOptions(
