@@ -35,6 +35,20 @@
 			"flags": {
         "editor": true
 			}
+		},
+    {
+			"id": "18plus",
+			"port": 8052,
+			"path": "/s02/ws",
+			"local": "localhost:8052",
+			"name": "18+ Server",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "adult topics allowed",
+			"flags": {
+        "editor": true
+			},
+      "alert": "18+"
 		}
 	]
 }
