@@ -1,1 +1,1 @@
-node pony-town.js --game test
+node pony-town.js --game safe
