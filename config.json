@@ -24,17 +24,16 @@
 	"holiday": "none",
 	"servers": [
 		{
-			"id": "test",
-			"port": 8050,
-			"path": "/s00/ws",
-			"local": "localhost:8050",
-			"name": "Test server",
+			"id": "safe",
+			"port": 8051,
+			"path": "/s01/ws",
+			"local": "localhost:8051",
+			"name": "PG Server",
 			"season": "spring",
 			"holiday": "none",
-			"desc": "Testing server",
+			"desc": "No adult topics!!!",
 			"flags": {
-        "editor": true,
-				"test": true
+        "editor": true
 			}
 		}
 	]
