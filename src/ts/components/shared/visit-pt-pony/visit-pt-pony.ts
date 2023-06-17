@@ -21,7 +21,7 @@ const EXCITED: Expression = {
 	muzzle: Muzzle.SmileOpen,
 };
 
-const MENO = 'DBWIzP8imd08//D19fVazSjcwf1GhLNEiMxENSovLy/NsIdJQDnGqYBiSztWQTM6LychEnE/KRX///9WPeE1HbSpBUEIIASwgEIAAAAAbIAgCFMY34AHAAjwgCMRQCVLY38IDhAAwmFBz4fAIxjKM6SjGlaxjWtYgjGI';
+const MENO = 'FAqBgMRNkMVqs8To/ta57N1DNLVqV//Zv/9rWP53O+s2gB4AJiBEQAn4ADBAapUA0VTOCA…';
 
 @Component({
 	selector: 'visit-pt-pony',
