@@ -1,1 +1,1 @@
-node pony-town.js --admin --standaloneadmin
+node pony-town.js --admin --standaloneadmin --tools
