@@ -294,7 +294,7 @@ export function authRoutes(
 	app.get('/local', authenticate('local', { successRedirect: '/', failureRedirect: '/failed-login' }));
 	//}
 
-	//return app;
+	return app;
 }
 
 function createOptions(
