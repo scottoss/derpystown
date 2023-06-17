@@ -1,2 +1,2 @@
-node pony-town.js --game 18plus --tools
+node pony-town.js --game 18plus --tools --beta
 
