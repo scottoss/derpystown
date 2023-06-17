@@ -1,1 +1,1 @@
-node pony-town.js --login
+node pony-town.js --login --tools
