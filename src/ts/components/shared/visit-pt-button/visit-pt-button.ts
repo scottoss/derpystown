@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 	styleUrls: ['visit-pt-button.scss'],
 })
 export class VisitPTButton {
-	readonly ptLink = 'https://pony.town/';
+	readonly ptLink = 'https://bronykindness.net/';
 	readonly enableVisitPTButton = true;
 	constructor() {
 	}
