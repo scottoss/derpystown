@@ -66,6 +66,19 @@
         "editor": true
 			},
       "alert": "18+"
+		},
+    {
+			"id": "events",
+			"port": 8054,
+			"path": "/s04/ws",
+			"local": "localhost:8054",
+			"name": "Event Server",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "Our event server",
+			"flags": {
+        "editor": true
+			}
 		}
 	]
 }
