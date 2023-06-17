@@ -1,1 +1,1 @@
-node pony-town.js --game safe
+node pony-town.js --game safe --tools
