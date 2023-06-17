@@ -1,9 +1,9 @@
 {
 	"title": "DerpysTown",
-	"discordLink": "<LINK_TO_DISCORD_INVITE>",
-	"twitterLink": "<LINK_TO_TWITTER>",
-	"contactEmail": "your_contact_email@example.com",
-	"contactDiscord": "your_contact_discord#0000",
+	"discordLink": "https://discord.com/invite/3bNxbsqyPN",
+	"twitterLink": "https://twitter.com/BronyKindness",
+	"contactEmail": "support@bronystore.com",
+	"contactDiscord": "rainbowbrony",
 	"port": 8050,
 	"adminPort": 8040,
 	"host": "https://derpystown.com",
@@ -17,7 +17,11 @@
 		"google": {
 			"clientID": "463497634081-0phtshetk4u0hbvvuvesn1nl38dbh925.apps.googleusercontent.com",
 			"clientSecret": "3g_h1m9n8xST4L151NZGKwz_"
-		}
+		},
+    "discord": {
+      "clientID": "633261937597087776",
+      "clientSecret": "Kc-RapKdMj32YIPOXbWfhtESGa_WwD2Q"
+    }
 	},
 	"assetsPath": "assets-source",
 	"season": "spring",
