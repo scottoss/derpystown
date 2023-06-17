@@ -1,1 +1,1 @@
-node pony-town.js --game mix --tools
+node pony-town.js --game mix --tools --beta
