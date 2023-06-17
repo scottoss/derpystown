@@ -28,10 +28,23 @@
 			"port": 8051,
 			"path": "/s01/ws",
 			"local": "localhost:8051",
-			"name": "PG Server",
+			"name": "Kids Server",
 			"season": "spring",
 			"holiday": "none",
 			"desc": "No adult topics!!!",
+			"flags": {
+        "editor": true
+			}
+		},
+    {
+			"id": "mix",
+			"port": 8053,
+			"path": "/s03/ws",
+			"local": "localhost:8053",
+			"name": "Mixed Server",
+			"season": "spring",
+			"holiday": "none",
+			"desc": "a mixed server for young and old (PG)",
 			"flags": {
         "editor": true
 			}
