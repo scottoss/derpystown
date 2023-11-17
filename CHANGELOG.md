@@ -1,3 +1,8 @@
+#### v0.2.0
+- added a new social site
+- launched in game animator
+- changed domain from derpystown.com to play.derpystown.com
+
 #### v0.1.8
 - added new songs
 - added scale limit (3)
