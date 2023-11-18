@@ -1,16 +1,16 @@
 import { Injectable } from '@angular/core';
 import { Howl } from 'howler';
 import { sample } from 'lodash';
-import {Holiday, MapType } from '../../common/interfaces';
+import { Season, Holiday, MapType } from '../../common/interfaces';
 import { getUrl } from '../../client/rev';
-// Season, 
+
 interface Track {
 	name: string;
 	src: string[];
 	howl?: Howl;
 }
-//season: Season,
-function getTracks(holiday: Holiday, map: MapType) {
+
+function getTracks(season: Season, holiday: Holiday, map: MapType) {
 	switch (map) {
 		case MapType.Island:
 			return [
@@ -115,9 +115,14 @@ function getTracks(holiday: Holiday, map: MapType) {
 				'zip',
 				] : []),
 				
-				//...(season === Season.Winter ? [
-				//	
-				//] : []),
+				...(season === Season.Winter ? [
+				'jingle-bells',
+				'Christmas1',
+				'2',
+				'3',
+				'theater',
+				'ITS',	
+				] : []),
 				
 				...(holiday === Holiday.Christmas ? [
 				'jingle-bells',
@@ -186,9 +191,9 @@ export class Audio {
 	get trackName() {
 		return this.instance && this.volume ? this.instance.track.name : '';
 	}
-	initTracks(holiday: Holiday, map: MapType) {
+	initTracks(season: Season, holiday: Holiday, map: MapType) {
 		const tracks = getTracks(season, holiday, map);
-//season: Season,
+
 		// Make new tracks more frequent
 		// const duplicateTracks = tracks.filter(t => t === 'ghost' || t === 'pumpkin');
 		// tracks.push(...duplicateTracks);
@@ -198,7 +203,7 @@ export class Audio {
 		this.loops = 0;
 	}
 	setVolume(volume: number) {
-		this.volume = volume / 50;
+		this.volume = volume / 100;
 
 		if (this.playing) {
 			if (this.instance) {
