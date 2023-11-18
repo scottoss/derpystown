@@ -99,6 +99,11 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				'dixi',
 				'lplace',
 				'zip',
+				'Blue_Suede_Shoes',
+				'Chattahoochee',
+				'Ghost_Riders_In_The_Sky',
+				'Hound_Dog',
+				
 				] : []),
 				
 				...(holiday === Holiday.Easter ? [
@@ -113,6 +118,11 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				'dixi',
 				'lplace',
 				'zip',
+				'Battle_Hymn_Of_The_Republic',
+				'Blue_Suede_Shoes',
+				'Chattahoochee',
+				'Ghost_Riders_In_The_Sky',
+				'Hound_Dog',
 				] : []),
 				
 				...(season === Season.Winter ? [
@@ -120,12 +130,19 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				] : []),
 				
 				...(holiday === Holiday.Christmas ? [
-				'jingle-bells',
 				'Christmas1',
 				'2',
 				'3',
 				'theater',
 				'ITS',
+				'Auld_Lang_Syne',
+				'Jingle_Bells',
+				'We_Wish_You_A_Merry_Christmas',
+				'Sleigh_Ride',
+				'let_it_snow',
+				'Jingle_Bell_Rock',
+				'Joy_To_The_World',
+				'Rudolph_The_Red-Nosed_Reindeer',
 				] : []),
 				
 				
