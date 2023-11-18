@@ -25,7 +25,7 @@
 	},
 	"assetsPath": "assets-source",
 	"season": "winter",
-	"holiday": "christmas",
+	"holiday": "none",
 	"servers": [
 		{
 			"id": "safe",
