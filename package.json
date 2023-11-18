@@ -1,6 +1,6 @@
 {
   "name": "derpy's-town",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "derpy's custom server",
   "main": "pony-town.js",
   "scripts": {

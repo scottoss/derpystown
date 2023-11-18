@@ -1,3 +1,6 @@
+#### v0.2.2
+- fixed some bugs
+
 #### v0.2.1
 - updated and added musics
 
