@@ -198,7 +198,7 @@ export class Audio {
 		this.loops = 0;
 	}
 	setVolume(volume: number) {
-		this.volume = volume / 100;
+		this.volume = volume / 30;
 
 		if (this.playing) {
 			if (this.instance) {
