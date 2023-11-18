@@ -145,7 +145,7 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 	}
 }
 
-const FADE_TRACKS = true;
+const FADE_TRACKS = false;
 
 function fadeOut(track: Track, id: number, volume: number) {
 	const howl = track && track.howl;
