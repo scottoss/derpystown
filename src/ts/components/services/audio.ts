@@ -116,12 +116,7 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				] : []),
 				
 				...(season === Season.Winter ? [
-				'jingle-bells',
-				'Christmas1',
-				'2',
-				'3',
-				'theater',
-				'ITS',	
+				
 				] : []),
 				
 				...(holiday === Holiday.Christmas ? [
