@@ -115,29 +115,31 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				'zip',
 				] : []),
 				
-				...(season === Season.Winter ? [
-					
-				] : []),
+				//...(season === Season.Winter ? [
+				//	
+				//] : []),
 				
 				...(holiday === Holiday.Christmas ? [
-					'jingle-bells',
-					'Christmas1',
-					'2',
-					'3',
-					'theater',
-					'ITS',
+				'jingle-bells',
+				'Christmas1',
+				'2',
+				'3',
+				'theater',
+				'ITS',
 				] : []),
+				
+				
 				...(holiday === Holiday.Halloween ? [
-					'ghost',
-					'pumpkin',
+				'ghost',
+				'pumpkin',
 				] : []),
 				...(holiday === Holiday.Carnaval ? [
-					'theater',
-					'ITS',
+				'theater',
+				'ITS',
 				] : []),
 				...(holiday === Holiday.Valentine ? [
-					'theater',
-					'ITS',
+				'theater',
+				'ITS',
 				] : []),
 			];
 	}
@@ -196,7 +198,7 @@ export class Audio {
 		this.loops = 0;
 	}
 	setVolume(volume: number) {
-		this.volume = volume / 100;
+		this.volume = volume / 50;
 
 		if (this.playing) {
 			if (this.instance) {
