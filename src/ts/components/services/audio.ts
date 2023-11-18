@@ -9,8 +9,8 @@ interface Track {
 	src: string[];
 	howl?: Howl;
 }
-
-function getTracks(season: Season, holiday: Holiday, map: MapType) {
+//season: Season,
+function getTracks(holiday: Holiday, map: MapType) {
 	switch (map) {
 		case MapType.Island:
 			return [
@@ -186,9 +186,9 @@ export class Audio {
 	get trackName() {
 		return this.instance && this.volume ? this.instance.track.name : '';
 	}
-	initTracks(season: Season, holiday: Holiday, map: MapType) {
+	initTracks(holiday: Holiday, map: MapType) {
 		const tracks = getTracks(season, holiday, map);
-
+//season: Season,
 		// Make new tracks more frequent
 		// const duplicateTracks = tracks.filter(t => t === 'ghost' || t === 'pumpkin');
 		// tracks.push(...duplicateTracks);
