@@ -24,7 +24,7 @@
     }
 	},
 	"assetsPath": "assets-source",
-	"season": "winter",
+	"season": "summer",
 	"holiday": "none",
 	"servers": [
 		{
@@ -73,8 +73,8 @@
 			"path": "/s04/ws",
 			"local": "localhost:8054",
 			"name": "Event Server",
-			"season": "spring",
-			"holiday": "none",
+			"season": "winter",
+			"holiday": "christmas",
 			"desc": "Our event server",
 			"flags": {
         "editor": true
