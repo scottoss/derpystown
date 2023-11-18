@@ -1,3 +1,6 @@
+#### v0.2.1
+- updated and added musics
+
 #### v0.2.0
 - added a new social site
 - launched in game animator

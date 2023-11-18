@@ -14,13 +14,31 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 	switch (map) {
 		case MapType.Island:
 			return [
-				'island',
-				'sunny-island',
+				'Billy_in_the_Lowground',
+				'Hillbilly_Hologram',
+				'Shell-Be-Coming-Round-The-Mountain',
+				'Yankee-Doodle',
+				'Ive-Been-Working-On-The-Railroad',
+				'OldStyle-Country',
+				'Take-Me-Home-Country-Roads',
+				'treasure_town',
+				'dixi',
+				'lplace',
+				'zip',
 			];
 		case MapType.House:
 			return [
-				'happy-house',
-				'sweet-home',
+				'Billy_in_the_Lowground',
+				'Hillbilly_Hologram',
+				'Shell-Be-Coming-Round-The-Mountain',
+				'Yankee-Doodle',
+				'Ive-Been-Working-On-The-Railroad',
+				'OldStyle-Country',
+				'Take-Me-Home-Country-Roads',
+				'treasure_town',
+				'dixi',
+				'lplace',
+				'zip',
 			];
 		case MapType.Cave:
 			return [
@@ -29,113 +47,37 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 			];
 		case MapType.Disco:
 			return [
-				...(holiday === Holiday.None ? [
-				'spaceka0s',
-				'weird-space',
-				'further',
+				//...(holiday === Holiday.None ? [
+				//'easter_egg',
+				//'Electrodoodle',
+				
+				//] : []),
+				
+				//...(holiday === Holiday.Easter ? [
 				'easter_egg',
-				] : []),
+				'Electrodoodle',
+				'Big_Top',
+				'ITS',
+				'Smoked_Kielbasa_Polka',
+				'theater',
 				
-				...(holiday === Holiday.Easter ? [
-				'spaceka0s',
-				'weird-space',
-				'further',
-				'easter_egg',
-				] : []),
-
-
-
-
-
-				...(holiday === Holiday.Safe ? [
-					'a-pirates-life',
-					'deep-in-the-heart-of-texas',
-					'mary-had-a-little-lamb',
-					'old-macdonald-had-a-farm',
-					'polly-wolly-doodle',
-					'rig-a-jig-jig',
-					'shell-be-comin-round-the-mountain',
-					'skip-to-my-lou',
-					'the-bus-song',
-				] : []),
 				
-
-				...(holiday === Holiday.Event ? [
-					'spaceka0s',
-					'weird-space',
-					'further',
-					'easter_egg',
-				] : []),
 				
+				
+				//] : []),
 
-				...(holiday === Holiday.Adult ? [
-					'spaceka0s',
-					'weird-space',
-					'further',
-					'easter_egg',
-					] : []),
+
+
+
+
+
 
 
 
 			
 		
 				
-				...(holiday === Holiday.Carnaval ? [
-				'0',
-				'1',
-				'2',
-				'3',
-				'4',
-				'5',
-				'6',
-				'7',
-				'8',
-				'9',
-				'10',
-				'11',
-				'12',
-				'13',
-				'14',
-				'15',
-				'16',
-				'17',
-				'18',
-				'19',
-				'20',
-				'21',
-				'22',
-				'23',
-				'24',
-				'25',
-				'26',
-				'27',
-				'28',
-				'29',
-				'30',
-				'31',
-				'32',
-				'33',
-				'34',
-				'35',
-				'36',
-				'37',
-				'38',
-				'39',
-				'40',
-				'41',
-				'42',
-				'43',
-				'44',
-				'45',
-				'46',
-				'47',
-				'48',
-				'49',
-				'50',
-				'51',
-				'52',
-				'53',
-				] : []),
+				
 			];
 		default:
 			return [
@@ -180,6 +122,10 @@ function getTracks(season: Season, holiday: Holiday, map: MapType) {
 				...(holiday === Holiday.Christmas ? [
 					'jingle-bells',
 					'Christmas1',
+					'2',
+					'3',
+					'theater',
+					'ITS',
 				] : []),
 				...(holiday === Holiday.Halloween ? [
 					'ghost',
