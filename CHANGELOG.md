@@ -1,3 +1,6 @@
+#### v0.2.4
+- bugfixes
+
 #### v0.2.3
 - added even more songs
 
