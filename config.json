@@ -24,8 +24,8 @@
     }
 	},
 	"assetsPath": "assets-source",
-	"season": "summer",
-	"holiday": "none",
+	"season": "winter",
+	"holiday": "christmas",
 	"servers": [
 		{
 			"id": "safe",
@@ -33,8 +33,8 @@
 			"path": "/s01/ws",
 			"local": "localhost:18051",
 			"name": "Kids Server",
-			"season": "autumn",
-			"holiday": "none",
+			"season": "winter",
+			"holiday": "christmas",
 			"desc": "No adult topics!!!",
 			"flags": {
         "editor": true
@@ -46,8 +46,8 @@
 			"path": "/s03/ws",
 			"local": "localhost:18053",
 			"name": "Mixed Server",
-			"season": "autumn",
-			"holiday": "none",
+			"season": "winter",
+			"holiday": "christmas",
 			"desc": "a mixed server for young and old (PG)",
 			"flags": {
         "editor": true
@@ -59,8 +59,8 @@
 			"path": "/s02/ws",
 			"local": "localhost:18052",
 			"name": "18+ Server",
-			"season": "autumn",
-			"holiday": "none",
+			"season": "winter",
+			"holiday": "christmas",
 			"desc": "adult topics allowed",
 			"flags": {
         "editor": true
@@ -73,8 +73,8 @@
 			"path": "/s04/ws",
 			"local": "localhost:18054",
 			"name": "Event Server",
-			"season": "autumn",
-			"holiday": "none",
+			"season": "winter",
+			"holiday": "christmas",
 			"desc": "Our event server",
 			"flags": {
         "editor": true
